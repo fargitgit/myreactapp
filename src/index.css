@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: brown;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.greetings{
+    background: url(https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg {
+    color: #fff;
+    font-size: 50px;
+}
+.msg span{
+    font-weight: 600;
+}
+.owl-item {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.owl-item:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.owl_container {
+    width: 90%;
+    margin: 30px auto;
+}
+.owl_container .item{
+
+}
+.w_100 {
+    width: 100%;
+}
+.bg , .todo{
+    position: absolute;
+    width: 380px;
+    background: #8608d5;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    padding: 100px 0;
+    font-size: 30px;
+    color: #fff;
+}
+.bg button{
+    border: 1px solid #50057e;
+    background: #c085e5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: #50057e;
+    cursor: pointer;
+    margin: 10px 5px;
+    font-weight: bold;
+}
+.bg input{
+    width: 80%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.todo {
+    padding:0;
+    overflow: hidden;
+}
+/* .header{
+    font-weight: 500;
+    font-size: 20px;
+    background: #4b0378;
+    padding: 20px;
+    margin-bottom: 20px;
+} */
+.header{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.todolist_form {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.todolist_form input {
+    width: 60%;
+    margin-right: 20px;
+    padding: 12px;
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid #fff;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    outline: none;
+    color: #fff;
+}
+.todo_btn{
+    width: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    font-family: 'Montserrat';
+    border-radius: 500%;
+    border: 0;
+    color: #fff;
+    background: rgb(75 3 120 / 60%);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.todo_btn:hover {
+    background: #4b0378;
+}
+::placeholder{
+    color: #fff;
+}
+.listItem{
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 20px 15px;
+    font-weight: 500;
+}
+.listItem a{
+    width: 15px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(99 5 157 / 70%);
+    cursor: pointer;
+    font-size: 20px;
+    height: 15px;
+    line-height: 14px;
+    transition: all .5s ease;
+}
+.listItem a:hover{
+    background: crimson;
+}
+.itemInput{
+    border: 0;
+    width: 60%;
+    border-bottom: 2px solid #9c27b0;
+    margin-right: 10px;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #7e7a7a;
+}
+.item{
+    text-transform: capitalize
+}
+
+
+
+/* Accordian Css*/
+
+.accordian_main{
+    
+}
+.active{
+    color: red;
+}
